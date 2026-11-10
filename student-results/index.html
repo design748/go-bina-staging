@@ -1,0 +1,284 @@
+<!DOCTYPE html><html lang="en"> <head><meta name="robots" content="noindex, nofollow"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>bina Student Results — Independently Measured</title><meta name="description" content="How much do bina students actually learn? See a year of reading and math growth, measured by the nationally normed Renaissance STAR assessment."><link rel="canonical" href="https://go.bina.school/student-results"><link rel="icon" type="image/png" href="../images/favicon.png"><meta property="og:title" content="bina Student Results — Independently Measured"><meta property="og:description" content="How much do bina students actually learn? See a year of reading and math growth, measured by the nationally normed Renaissance STAR assessment."><meta property="og:type" content="website"><meta property="og:url" content="https://go.bina.school/student-results"><meta name="generator" content="Astro v6.4.8"><!-- Tracking parity with thebinaschool.com: same GTM container (CookieYes CMP + GA4
+         live inside it), a dedicated PostHog project for go.bina.school (session replay
+         enabled after analytics consent), same first-touch attribution file. GTM
+         uses the main site's deferred loader — they load after full page load + idle,
+         or on first interaction, whichever comes first — so the consent banner never
+         lands on the LCP critical path. Host-gated to bina domains so previews and local
+         dev stay out of the metrics. Keep in sync with the main site's snippet.
+         GTM loads first-party through Stape Custom Loader (sgtm.thebinaschool.com);
+         the last argument is Stape's encoded form of GTM-M2HWS5K, not a GTM ID. --><script>
+      (function (w, d, s, l, i) {
+        if (/HeadlessChrome|ReactSnap/i.test(navigator.userAgent || '')) return;
+        if (!/(^|\.)(thebinaschool\.com|bina\.school)$/.test((w.location || {}).hostname || '')) return;
+        var loaded = false;
+        function loadGtm() {
+          if (loaded) return;
+          loaded = true;
+          w[l] = w[l] || [];
+          w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = 'https://sgtm.thebinaschool.com/8bkryjbnrubr.js?' + i;
+          f.parentNode.insertBefore(j, f);
+          ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach(function (t) {
+            w.removeEventListener(t, loadGtm);
+          });
+        }
+        ['pointerdown', 'touchstart', 'keydown', 'scroll'].forEach(function (t) {
+          w.addEventListener(t, loadGtm, { once: true, passive: true });
+        });
+        // Fixed post-load delay, not requestIdleCallback (rIC on a settled page can wait
+        // for the next real interaction, which may never come on a one-screen visit).
+        if (d.readyState === 'complete') w.setTimeout(loadGtm, 5000);
+        else w.addEventListener('load', function () { w.setTimeout(loadGtm, 5000); }, { once: true });
+      })(window, document, 'script', 'dataLayer', '9yb=GwZINTovRzRAKiIhWylMD09QW0NIBgREBgoQEAcMCwoRChodAkwJFh8%3D');
+    </script><script>
+      /* Dedicated go PostHog project and existing replay settings. CookieYes in
+         shared GTM owns consent; only its resolved analytics boolean grants access. */
+      (function () {
+        if (/HeadlessChrome|ReactSnap/i.test(navigator.userAgent || '')) return;
+        if (!/(^|\.)(thebinaschool\.com|bina\.school)$/.test(window.location.hostname || '')) return;
+        var loading = false, sdkReady = false, initialized = false, capturing = false;
+        function analyticsAllowed() {
+          try {
+            var consent = window.getCkyConsent();
+            return !!(consent && consent.categories && consent.categories.analytics === true);
+          } catch (error) {
+            return false;
+          }
+        }
+        function syncConsent() {
+          if (!analyticsAllowed()) {
+            if (capturing) {
+              capturing = false;
+              window.posthog.opt_out_capturing();
+              window.posthog.stopSessionRecording();
+            }
+            return;
+          }
+          if (!sdkReady) {
+            if (loading) return;
+            loading = true;
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.crossOrigin = 'anonymous';
+            script.async = true;
+            script.src = 'https://us-assets.i.posthog.com/static/array.js';
+            // Load the real SDK without the snippet's queued init or a second loader.
+            // Its unloaded instance has no project until this fresh consent check.
+            script.onload = function () {
+              loading = false;
+              sdkReady = !!(window.posthog && typeof window.posthog.init === 'function');
+              if (sdkReady) syncConsent();
+            };
+            script.onerror = function () { loading = false; script.remove(); };
+            var first = document.getElementsByTagName('script')[0];
+            first.parentNode.insertBefore(script, first);
+            return;
+          }
+          if (capturing) return;
+          if (!initialized) {
+            initialized = true;
+            window.posthog.init('phc_D4SErijz7JBzQTuzsJGdYQcKUB3LZxZoqBsBJSn8TQH4', {
+              api_host: 'https://us.i.posthog.com',
+              defaults: '2026-01-30',
+            });
+          }
+          window.posthog.opt_in_capturing();
+          window.posthog.startSessionRecording();
+          capturing = true;
+        }
+        document.addEventListener('cookieyes_banner_load', syncConsent);
+        document.addEventListener('cookieyes_consent_update', syncConsent);
+        syncConsent();
+      })();
+    </script><!-- First-touch attribution — a port of thebinaschool.com/attribution.js. Carries
+         utm_*, gclid, fbclid and the partner ?ref= onto form CTAs, start.bina.school links
+         and the HTTPS main-site homepage. --><script defer src="../attribution.js"></script><link rel="stylesheet" href="../_astro/BaseLayout.Cn8kFk71.css"><style>.chart-label[data-astro-cid-vw3llulk]{font-family:var(--font-display);font-weight:700;font-size:17px;fill:currentColor}.curve-card[data-astro-cid-vw3llulk] .chart-label[data-astro-cid-vw3llulk]{font-size:22px}.chart-label-sm[data-astro-cid-vw3llulk]{font-family:var(--font-display);font-size:14px;fill:currentColor}.tenure-bar[data-astro-cid-vw3llulk] rect[data-astro-cid-vw3llulk],.curve-oct[data-astro-cid-vw3llulk],.curve-may[data-astro-cid-vw3llulk]{transition:opacity .2s ease-out}.tenure-bar[data-astro-cid-vw3llulk]:hover rect[data-astro-cid-vw3llulk]{fill:#000}.curve-card[data-astro-cid-vw3llulk] .curve-oct[data-astro-cid-vw3llulk],.curve-card[data-astro-cid-vw3llulk] .curve-may[data-astro-cid-vw3llulk]{opacity:0;transform:translateY(14px);transition:opacity .7s ease-out,transform .7s ease-out}.curve-card[data-astro-cid-vw3llulk].in .curve-oct[data-astro-cid-vw3llulk]{opacity:1;transform:none}.curve-card[data-astro-cid-vw3llulk].in .curve-may[data-astro-cid-vw3llulk]{opacity:1;transform:none;transition-delay:.55s}@media(prefers-reduced-motion:reduce){.curve-card[data-astro-cid-vw3llulk] .curve-oct[data-astro-cid-vw3llulk],.curve-card[data-astro-cid-vw3llulk] .curve-may[data-astro-cid-vw3llulk]{opacity:1;transform:none;transition:none}}
+</style></head> <body> <nav class="theme-black sticky top-0 z-50 flex h-20 items-center justify-between px-5 sm:px-10"> <a href="https://thebinaschool.com" aria-label="bina — home"> <img src="../images/navbar-logo-2026.svg" alt="bina" width="147" height="62" class="h-9 w-auto"> </a> <a href="https://form.thebinaschool.com/new" class="btn-bina btn-sm">Start your bina journey</a> </nav> <main>   <header class="theme-lagoon" data-astro-cid-vw3llulk> <div class="mx-auto max-w-5xl px-5 py-16 sm:py-20" data-astro-cid-vw3llulk> <h1 class="mb-5 text-title-3xl sm:text-display-sm" data-astro-cid-vw3llulk>
+How much do children learn in a year at bina?
+</h1> <p class="text-body-xl" data-astro-cid-vw3llulk>
+Every year, bina students (ages 4–15) take Renaissance STAR, an independent assessment used
+        by schools across the US. It measures reading and math against students nationwide, so you
+        can see what a year at bina adds up to. Here's the 2025–26 school year.
+</p> </div> </header>  <section class="theme-base" data-astro-cid-vw3llulk> <div class="mx-auto max-w-5xl px-5 py-14" data-astro-cid-vw3llulk> <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4" data-astro-cid-vw3llulk> <div class="card-bina-solid p-6 stat-tile" data-astro-cid-vw3llulk> <p class="font-display text-title-4xl font-bold text-hl" data-astro-cid-vw3llulk>
++<span data-count="48" data-astro-cid-vw3llulk>0</span> </p> <p class="mt-2 font-display font-bold text-hl" data-astro-cid-vw3llulk>points of reading growth</p> <p class="mt-1 text-body-lg" data-astro-cid-vw3llulk>average per student over the school year¹</p> </div> <div class="card-bina-solid p-6 stat-tile" data-astro-cid-vw3llulk> <p class="font-display text-title-4xl font-bold text-hl" data-astro-cid-vw3llulk>
++<span data-count="32" data-astro-cid-vw3llulk>0</span> </p> <p class="mt-2 font-display font-bold text-hl" data-astro-cid-vw3llulk>points of math growth</p> <p class="mt-1 text-body-lg" data-astro-cid-vw3llulk>average per student over the school year¹</p> </div> <div class="card-bina-solid p-6 stat-tile" data-astro-cid-vw3llulk> <p class="font-display text-title-4xl font-bold text-hl" data-astro-cid-vw3llulk> <span data-count="67" data-astro-cid-vw3llulk>0</span>%
+</p> <p class="mt-2 font-display font-bold text-hl" data-astro-cid-vw3llulk>at or above the national reading benchmark</p> <p class="mt-1 text-body-lg" data-astro-cid-vw3llulk>of <strong data-astro-cid-vw3llulk>195 students</strong> assessed in May 2026</p> </div> <div class="card-bina-solid p-6 stat-tile" data-astro-cid-vw3llulk> <p class="font-display text-title-4xl font-bold text-hl" data-astro-cid-vw3llulk> <span data-count="81" data-astro-cid-vw3llulk>0</span>%
+</p> <p class="mt-2 font-display font-bold text-hl" data-astro-cid-vw3llulk>of students grew their reading score</p> <p class="mt-1 text-body-lg" data-astro-cid-vw3llulk>from autumn to spring¹</p> </div> </div> <p class="mt-4 text-body-lg" data-astro-cid-vw3llulk>
+¹ STAR scaled-score points, <strong data-astro-cid-vw3llulk>October 2025 to May 2026</strong>, for the
+<strong data-astro-cid-vw3llulk>108 students</strong> assessed at both points at the same level.
+</p> </div> </section>  <section class="theme-base" data-astro-cid-vw3llulk> <div class="mx-auto max-w-5xl px-5 py-14" data-astro-cid-vw3llulk> <h2 class="mb-3 text-title-xl sm:text-title-3xl" data-astro-cid-vw3llulk>The whole school moved forward</h2> <p class="mb-8" data-astro-cid-vw3llulk>
+Each curve shows how student scores spread across the school. The spring curve sits to the
+        right of autumn, and that shift is a year of learning in one picture.
+</p> <div class="grid gap-6 lg:grid-cols-2" data-astro-cid-vw3llulk> <figure class="curve-card rounded-lg border border-mint p-6 sm:p-8" data-astro-cid-vw3llulk> <figcaption class="mb-2 font-display text-title-sm" data-astro-cid-vw3llulk> Reading <span class="ml-2 text-hl" data-astro-cid-vw3llulk>+48 pts</span> avg growth
+</figcaption> <p class="mb-4 text-body-lg" data-astro-cid-vw3llulk>STAR scaled scores, 108 students</p> <p class="mb-3 flex gap-5 font-display text-body-md font-bold md:hidden" data-astro-cid-vw3llulk> <span class="inline-flex items-center gap-2" data-astro-cid-vw3llulk> <span class="w-6 border-t-2 border-dashed border-mint" data-astro-cid-vw3llulk></span>
+Oct '25
+</span> <span class="inline-flex items-center gap-2 text-hl" data-astro-cid-vw3llulk> <span class="w-6 border-t-[3px] border-lagoon" data-astro-cid-vw3llulk></span>
+May '26
+</span> </p> <svg viewBox="0 0 640 230" role="img" aria-label="Reading: distribution of scores shifted right from October to May; average grew 48 points" class="w-full" data-astro-cid-vw3llulk> <line x1="14" y1="216" x2="626" y2="216" stroke="#D8F6C8" stroke-width="1.5" data-astro-cid-vw3llulk></line> <g class="curve-oct" data-astro-cid-vw3llulk> <path d="M14.0,214.3 L20.8,213.9 L27.6,213.4 L34.4,212.8 L41.2,212.1 L48.0,211.3 L54.8,210.3 L61.6,209.2 L68.4,207.9 L75.2,206.4 L82.0,204.6 L88.8,202.6 L95.6,200.4 L102.4,197.8 L109.2,195.0 L116.0,191.8 L122.8,188.3 L129.6,184.5 L136.4,180.3 L143.2,175.7 L150.0,170.9 L156.8,165.6 L163.6,160.1 L170.4,154.2 L177.2,148.1 L184.0,141.8 L190.8,135.2 L197.6,128.6 L204.4,121.9 L211.2,115.2 L218.0,108.6 L224.8,102.1 L231.6,95.9 L238.4,89.9 L245.2,84.4 L252.0,79.3 L258.8,74.7 L265.6,70.7 L272.4,67.4 L279.2,64.7 L286.0,62.9 L292.8,61.7 L299.6,61.4 L306.4,61.8 L313.2,63.1 L320.0,65.1 L326.8,67.8 L333.6,71.2 L340.4,75.3 L347.2,79.9 L354.0,85.1 L360.8,90.7 L367.6,96.7 L374.4,103.0 L381.2,109.5 L388.0,116.1 L394.8,122.8 L401.6,129.5 L408.4,136.2 L415.2,142.7 L422.0,149.0 L428.8,155.0 L435.6,160.9 L442.4,166.4 L449.2,171.6 L456.0,176.4 L462.8,180.9 L469.6,185.1 L476.4,188.8 L483.2,192.3 L490.0,195.4 L496.8,198.2 L503.6,200.7 L510.4,202.9 L517.2,204.9 L524.0,206.6 L530.8,208.1 L537.6,209.4 L544.4,210.5 L551.2,211.4 L558.0,212.2 L564.8,212.9 L571.6,213.5 L578.4,213.9 L585.2,214.3 L592.0,214.7 L598.8,214.9 L605.6,215.1 L612.4,215.3 L619.2,215.5 L626.0,215.6" fill="none" stroke="#D8F6C8" stroke-width="4" stroke-dasharray="10 9" stroke-linecap="round" data-astro-cid-vw3llulk></path> </g> <g class="curve-may" data-astro-cid-vw3llulk> <path d="M14.0,215.9 L20.8,215.9 L27.6,215.8 L34.4,215.8 L41.2,215.7 L48.0,215.6 L54.8,215.5 L61.6,215.3 L68.4,215.1 L75.2,214.9 L82.0,214.6 L88.8,214.2 L95.6,213.6 L102.4,213.0 L109.2,212.3 L116.0,211.3 L122.8,210.2 L129.6,208.8 L136.4,207.2 L143.2,205.3 L150.0,203.1 L156.8,200.5 L163.6,197.5 L170.4,194.1 L177.2,190.2 L184.0,185.9 L190.8,181.0 L197.6,175.6 L204.4,169.7 L211.2,163.3 L218.0,156.4 L224.8,149.0 L231.6,141.3 L238.4,133.1 L245.2,124.7 L252.0,116.1 L258.8,107.4 L265.6,98.8 L272.4,90.3 L279.2,82.0 L286.0,74.2 L292.8,66.9 L299.6,60.2 L306.4,54.4 L313.2,49.4 L320.0,45.4 L326.8,42.5 L333.6,40.7 L340.4,40.0 L347.2,40.5 L354.0,42.2 L360.8,44.9 L367.6,48.8 L374.4,53.6 L381.2,59.4 L388.0,65.9 L394.8,73.1 L401.6,80.9 L408.4,89.1 L415.2,97.6 L422.0,106.2 L428.8,114.9 L435.6,123.5 L442.4,132.0 L449.2,140.1 L456.0,148.0 L462.8,155.4 L469.6,162.4 L476.4,168.9 L483.2,174.8 L490.0,180.3 L496.8,185.2 L503.6,189.7 L510.4,193.6 L517.2,197.1 L524.0,200.1 L530.8,202.8 L537.6,205.0 L544.4,207.0 L551.2,208.6 L558.0,210.0 L564.8,211.2 L571.6,212.1 L578.4,212.9 L585.2,213.6 L592.0,214.1 L598.8,214.5 L605.6,214.8 L612.4,215.1 L619.2,215.3 L626.0,215.5" fill="none" stroke="#55EED4" stroke-width="5" stroke-linecap="round" data-astro-cid-vw3llulk></path> </g> <text x="293.1262699564586" y="26" text-anchor="end" class="chart-label max-md:hidden" data-astro-cid-vw3llulk>Oct '25</text> <text x="346.87373004354134" y="26" text-anchor="start" class="chart-label text-lagoon max-md:hidden" data-astro-cid-vw3llulk>May '26</text> </svg> <table class="mt-6 w-full text-left text-body-lg" data-astro-cid-vw3llulk> <thead data-astro-cid-vw3llulk> <tr class="border-b border-mint" data-astro-cid-vw3llulk> <th class="py-2 pr-3 align-bottom font-display text-label uppercase text-hl" data-astro-cid-vw3llulk>Point</th> <th class="py-2 pr-3 align-bottom font-display text-label uppercase text-hl" data-astro-cid-vw3llulk>Average scaled score</th> <th class="py-2 align-bottom font-display text-label uppercase text-hl" data-astro-cid-vw3llulk>Students</th> </tr> </thead> <tbody data-astro-cid-vw3llulk> <tr class="border-b border-mint" data-astro-cid-vw3llulk> <td class="whitespace-nowrap py-3 pr-3" data-astro-cid-vw3llulk>Oct '25</td> <td class="py-3 pr-3" data-astro-cid-vw3llulk>962</td> <td class="py-3" data-astro-cid-vw3llulk>108</td> </tr> <tr class="border-b border-mint" data-astro-cid-vw3llulk> <td class="whitespace-nowrap py-3 pr-3" data-astro-cid-vw3llulk>May '26</td> <td class="py-3 pr-3" data-astro-cid-vw3llulk>1009</td> <td class="py-3" data-astro-cid-vw3llulk>108</td> </tr> </tbody> </table> <p class="mt-4 text-body-lg text-hl" data-astro-cid-vw3llulk>
+*Average growth (+48) is the average of each student's own change, so it
+                  can differ slightly from subtracting the rounded averages above.
+</p> </figure><figure class="curve-card rounded-lg border border-mint p-6 sm:p-8" data-astro-cid-vw3llulk> <figcaption class="mb-2 font-display text-title-sm" data-astro-cid-vw3llulk> Math <span class="ml-2 text-hl" data-astro-cid-vw3llulk>+32 pts</span> avg growth
+</figcaption> <p class="mb-4 text-body-lg" data-astro-cid-vw3llulk>STAR scaled scores, 108 students</p> <p class="mb-3 flex gap-5 font-display text-body-md font-bold md:hidden" data-astro-cid-vw3llulk> <span class="inline-flex items-center gap-2" data-astro-cid-vw3llulk> <span class="w-6 border-t-2 border-dashed border-mint" data-astro-cid-vw3llulk></span>
+Oct '25
+</span> <span class="inline-flex items-center gap-2 text-hl" data-astro-cid-vw3llulk> <span class="w-6 border-t-[3px] border-lagoon" data-astro-cid-vw3llulk></span>
+May '26
+</span> </p> <svg viewBox="0 0 640 230" role="img" aria-label="Math: distribution of scores shifted right from October to May; average grew 32 points" class="w-full" data-astro-cid-vw3llulk> <line x1="14" y1="216" x2="626" y2="216" stroke="#D8F6C8" stroke-width="1.5" data-astro-cid-vw3llulk></line> <g class="curve-oct" data-astro-cid-vw3llulk> <path d="M14.0,215.5 L20.8,215.3 L27.6,215.1 L34.4,214.8 L41.2,214.5 L48.0,214.1 L54.8,213.6 L61.6,212.9 L68.4,212.2 L75.2,211.2 L82.0,210.1 L88.8,208.8 L95.6,207.2 L102.4,205.4 L109.2,203.2 L116.0,200.7 L122.8,197.8 L129.6,194.5 L136.4,190.8 L143.2,186.6 L150.0,181.9 L156.8,176.7 L163.6,171.0 L170.4,164.9 L177.2,158.2 L184.0,151.2 L190.8,143.7 L197.6,135.8 L204.4,127.7 L211.2,119.3 L218.0,110.8 L224.8,102.4 L231.6,94.0 L238.4,85.8 L245.2,77.9 L252.0,70.5 L258.8,63.6 L265.6,57.5 L272.4,52.1 L279.2,47.7 L286.0,44.2 L292.8,41.7 L299.6,40.3 L306.4,40.0 L313.2,40.9 L320.0,42.8 L326.8,45.8 L333.6,49.8 L340.4,54.8 L347.2,60.6 L354.0,67.1 L360.8,74.2 L367.6,81.9 L374.4,89.9 L381.2,98.3 L388.0,106.7 L394.8,115.2 L401.6,123.6 L408.4,131.9 L415.2,139.9 L422.0,147.6 L428.8,154.9 L435.6,161.7 L442.4,168.1 L449.2,174.0 L456.0,179.4 L462.8,184.4 L469.6,188.8 L476.4,192.7 L483.2,196.2 L490.0,199.3 L496.8,202.0 L503.6,204.4 L510.4,206.4 L517.2,208.1 L524.0,209.5 L530.8,210.7 L537.6,211.7 L544.4,212.6 L551.2,213.3 L558.0,213.8 L564.8,214.3 L571.6,214.7 L578.4,215.0 L585.2,215.2 L592.0,215.4 L598.8,215.5 L605.6,215.6 L612.4,215.7 L619.2,215.8 L626.0,215.9" fill="none" stroke="#D8F6C8" stroke-width="4" stroke-dasharray="10 9" stroke-linecap="round" data-astro-cid-vw3llulk></path> </g> <g class="curve-may" data-astro-cid-vw3llulk> <path d="M14.0,215.4 L20.8,215.2 L27.6,215.0 L34.4,214.8 L41.2,214.5 L48.0,214.1 L54.8,213.7 L61.6,213.1 L68.4,212.5 L75.2,211.8 L82.0,210.9 L88.8,209.9 L95.6,208.7 L102.4,207.4 L109.2,205.8 L116.0,204.0 L122.8,202.0 L129.6,199.7 L136.4,197.2 L143.2,194.3 L150.0,191.1 L156.8,187.6 L163.6,183.8 L170.4,179.6 L177.2,175.1 L184.0,170.2 L190.8,165.0 L197.6,159.6 L204.4,153.8 L211.2,147.8 L218.0,141.5 L224.8,135.1 L231.6,128.6 L238.4,122.0 L245.2,115.4 L252.0,108.9 L258.8,102.5 L265.6,96.3 L272.4,90.4 L279.2,84.9 L286.0,79.8 L292.8,75.2 L299.6,71.1 L306.4,67.7 L313.2,64.9 L320.0,62.8 L326.8,61.5 L333.6,60.9 L340.4,61.1 L347.2,62.1 L354.0,63.8 L360.8,66.2 L367.6,69.3 L374.4,73.0 L381.2,77.3 L388.0,82.2 L394.8,87.5 L401.6,93.2 L408.4,99.3 L415.2,105.6 L422.0,112.0 L428.8,118.6 L435.6,125.2 L442.4,131.8 L449.2,138.2 L456.0,144.6 L462.8,150.7 L469.6,156.6 L476.4,162.3 L483.2,167.6 L490.0,172.6 L496.8,177.3 L503.6,181.7 L510.4,185.7 L517.2,189.4 L524.0,192.7 L530.8,195.7 L537.6,198.5 L544.4,200.9 L551.2,203.0 L558.0,204.9 L564.8,206.6 L571.6,208.1 L578.4,209.3 L585.2,210.4 L592.0,211.4 L598.8,212.2 L605.6,212.8 L612.4,213.4 L619.2,213.9 L626.0,214.3" fill="none" stroke="#55EED4" stroke-width="5" stroke-linecap="round" data-astro-cid-vw3llulk></path> </g> <text x="298.65203761755487" y="26" text-anchor="end" class="chart-label max-md:hidden" data-astro-cid-vw3llulk>Oct '25</text> <text x="341.34796238244513" y="26" text-anchor="start" class="chart-label text-lagoon max-md:hidden" data-astro-cid-vw3llulk>May '26</text> </svg> <table class="mt-6 w-full text-left text-body-lg" data-astro-cid-vw3llulk> <thead data-astro-cid-vw3llulk> <tr class="border-b border-mint" data-astro-cid-vw3llulk> <th class="py-2 pr-3 align-bottom font-display text-label uppercase text-hl" data-astro-cid-vw3llulk>Point</th> <th class="py-2 pr-3 align-bottom font-display text-label uppercase text-hl" data-astro-cid-vw3llulk>Average scaled score</th> <th class="py-2 align-bottom font-display text-label uppercase text-hl" data-astro-cid-vw3llulk>Students</th> </tr> </thead> <tbody data-astro-cid-vw3llulk> <tr class="border-b border-mint" data-astro-cid-vw3llulk> <td class="whitespace-nowrap py-3 pr-3" data-astro-cid-vw3llulk>Oct '25</td> <td class="py-3 pr-3" data-astro-cid-vw3llulk>949</td> <td class="py-3" data-astro-cid-vw3llulk>108</td> </tr> <tr class="border-b border-mint" data-astro-cid-vw3llulk> <td class="whitespace-nowrap py-3 pr-3" data-astro-cid-vw3llulk>May '26</td> <td class="py-3 pr-3" data-astro-cid-vw3llulk>981</td> <td class="py-3" data-astro-cid-vw3llulk>108</td> </tr> </tbody> </table> <p class="mt-4 text-body-lg text-hl" data-astro-cid-vw3llulk>
+*Average growth (+32) is the average of each student's own change, so it
+                  can differ slightly from subtracting the rounded averages above.
+</p> </figure> </div> </div> </section>  <section class="theme-base" data-astro-cid-vw3llulk> <div class="mx-auto max-w-5xl px-5 py-14" data-astro-cid-vw3llulk> <h2 class="mb-3 text-title-xl sm:text-title-3xl" data-astro-cid-vw3llulk>See results for your child's age group</h2> <p class="mb-8" data-astro-cid-vw3llulk>
+Pick your child's age group. P1 is our youngest primary group, and M1 is the first year of
+        middle school.
+</p> <div class="card-bina-solid p-6 sm:p-8" data-astro-cid-vw3llulk> <div class="mb-6 flex flex-wrap gap-2" role="group" aria-label="Your child's level" data-astro-cid-vw3llulk> <button type="button" data-level="P1" aria-pressed="true" aria-label="P1, ages 5–6" class="level-btn cursor-pointer rounded-lg border-2 border-line px-4 py-2 text-left font-display font-bold leading-tight transition-colors duration-200 hover:bg-lagoon hover:text-black aria-pressed:bg-lagoon aria-pressed:text-black" data-astro-cid-vw3llulk> P1 <span class="block text-body-md opacity-70" data-astro-cid-vw3llulk>ages 5–6</span> </button><button type="button" data-level="P2" aria-pressed="false" aria-label="P2, ages 6–7" class="level-btn cursor-pointer rounded-lg border-2 border-line px-4 py-2 text-left font-display font-bold leading-tight transition-colors duration-200 hover:bg-lagoon hover:text-black aria-pressed:bg-lagoon aria-pressed:text-black" data-astro-cid-vw3llulk> P2 <span class="block text-body-md opacity-70" data-astro-cid-vw3llulk>ages 6–7</span> </button><button type="button" data-level="P3" aria-pressed="false" aria-label="P3, ages 7–8" class="level-btn cursor-pointer rounded-lg border-2 border-line px-4 py-2 text-left font-display font-bold leading-tight transition-colors duration-200 hover:bg-lagoon hover:text-black aria-pressed:bg-lagoon aria-pressed:text-black" data-astro-cid-vw3llulk> P3 <span class="block text-body-md opacity-70" data-astro-cid-vw3llulk>ages 7–8</span> </button><button type="button" data-level="P4" aria-pressed="false" aria-label="P4, ages 8–9" class="level-btn cursor-pointer rounded-lg border-2 border-line px-4 py-2 text-left font-display font-bold leading-tight transition-colors duration-200 hover:bg-lagoon hover:text-black aria-pressed:bg-lagoon aria-pressed:text-black" data-astro-cid-vw3llulk> P4 <span class="block text-body-md opacity-70" data-astro-cid-vw3llulk>ages 8–9</span> </button><button type="button" data-level="P5" aria-pressed="false" aria-label="P5, ages 9–10" class="level-btn cursor-pointer rounded-lg border-2 border-line px-4 py-2 text-left font-display font-bold leading-tight transition-colors duration-200 hover:bg-lagoon hover:text-black aria-pressed:bg-lagoon aria-pressed:text-black" data-astro-cid-vw3llulk> P5 <span class="block text-body-md opacity-70" data-astro-cid-vw3llulk>ages 9–10</span> </button><button type="button" data-level="P6" aria-pressed="false" aria-label="P6, ages 10–11" class="level-btn cursor-pointer rounded-lg border-2 border-line px-4 py-2 text-left font-display font-bold leading-tight transition-colors duration-200 hover:bg-lagoon hover:text-black aria-pressed:bg-lagoon aria-pressed:text-black" data-astro-cid-vw3llulk> P6 <span class="block text-body-md opacity-70" data-astro-cid-vw3llulk>ages 10–11</span> </button><button type="button" data-level="M1" aria-pressed="false" aria-label="M1, ages 11–12" class="level-btn cursor-pointer rounded-lg border-2 border-line px-4 py-2 text-left font-display font-bold leading-tight transition-colors duration-200 hover:bg-lagoon hover:text-black aria-pressed:bg-lagoon aria-pressed:text-black" data-astro-cid-vw3llulk> M1 <span class="block text-body-md opacity-70" data-astro-cid-vw3llulk>ages 11–12</span> </button> </div> <div id="level-result" aria-live="polite" data-astro-cid-vw3llulk></div> </div> </div> </section>  <section class="theme-base" data-astro-cid-vw3llulk> <div class="mx-auto max-w-5xl px-5 py-14" data-astro-cid-vw3llulk> <h2 class="mb-3 text-title-xl sm:text-title-3xl" data-astro-cid-vw3llulk>The longer at bina, the further ahead in reading</h2> <p class="mb-8" data-astro-cid-vw3llulk>
+Every group of bina students reads above the US national average, and the longer they've
+        been with us, the further ahead they are. Each bar shows how far a group sits above the
+        national average.
+</p> <figure data-astro-cid-vw3llulk> <ul class="grid gap-6" aria-label="Reading scores above the national average, by time enrolled at bina" data-astro-cid-vw3llulk> <li class="grid items-center gap-x-8 gap-y-2 sm:grid-cols-[11rem_1fr]" data-astro-cid-vw3llulk> <div data-astro-cid-vw3llulk> <p class="font-display font-bold" data-astro-cid-vw3llulk>3–6 months</p> <p class="text-body-lg" data-astro-cid-vw3llulk>30 students</p> </div> <div class="flex items-center gap-4" data-astro-cid-vw3llulk> <span class="block h-10 flex-none rounded-sm bg-lagoon" style="width:41.383177570093466%" aria-hidden="true" data-astro-cid-vw3llulk></span> <span class="font-display text-title-sm text-hl" data-astro-cid-vw3llulk>+5.4</span> </div> </li><li class="grid items-center gap-x-8 gap-y-2 sm:grid-cols-[11rem_1fr]" data-astro-cid-vw3llulk> <div data-astro-cid-vw3llulk> <p class="font-display font-bold" data-astro-cid-vw3llulk>7–12 months</p> <p class="text-body-lg" data-astro-cid-vw3llulk>82 students</p> </div> <div class="flex items-center gap-4" data-astro-cid-vw3llulk> <span class="block h-10 flex-none rounded-sm bg-lagoon" style="width:54.41121495327103%" aria-hidden="true" data-astro-cid-vw3llulk></span> <span class="font-display text-title-sm text-hl" data-astro-cid-vw3llulk>+7.1</span> </div> </li><li class="grid items-center gap-x-8 gap-y-2 sm:grid-cols-[11rem_1fr]" data-astro-cid-vw3llulk> <div data-astro-cid-vw3llulk> <p class="font-display font-bold" data-astro-cid-vw3llulk>1–2 years</p> <p class="text-body-lg" data-astro-cid-vw3llulk>50 students</p> </div> <div class="flex items-center gap-4" data-astro-cid-vw3llulk> <span class="block h-10 flex-none rounded-sm bg-lagoon" style="width:55.17757009345795%" aria-hidden="true" data-astro-cid-vw3llulk></span> <span class="font-display text-title-sm text-hl" data-astro-cid-vw3llulk>+7.2</span> </div> </li><li class="grid items-center gap-x-8 gap-y-2 sm:grid-cols-[11rem_1fr]" data-astro-cid-vw3llulk> <div data-astro-cid-vw3llulk> <p class="font-display font-bold" data-astro-cid-vw3llulk>2–3 years</p> <p class="text-body-lg" data-astro-cid-vw3llulk>11 students</p> </div> <div class="flex items-center gap-4" data-astro-cid-vw3llulk> <span class="block h-10 flex-none rounded-sm bg-lagoon" style="width:82%" aria-hidden="true" data-astro-cid-vw3llulk></span> <span class="font-display text-title-sm text-hl" data-astro-cid-vw3llulk>+10.7</span> </div> </li> </ul> <figcaption class="mt-8 text-body-lg" data-astro-cid-vw3llulk>
+Average reading score in NCE points above the US national average (50), spring 2026, grouped
+          by how long each student has been at bina. Groups of fewer than 10 students aren't shown, so
+          every bar stays reliable.
+</figcaption> </figure> </div> </section>  <section class="theme-mint" data-astro-cid-vw3llulk> <div class="mx-auto max-w-5xl px-5 py-14" data-astro-cid-vw3llulk> <h2 class="mb-3 text-title-xl sm:text-title-3xl" data-astro-cid-vw3llulk>How STAR measures learning</h2> <p class="mb-8" data-astro-cid-vw3llulk>
+Every number on this page comes from Renaissance STAR, an independent assessment taken by
+        millions of US students. Here's what it measures and what each term means.
+</p> <div class="grid gap-4 md:grid-cols-3" data-astro-cid-vw3llulk> <div class="card-bina-solid flex flex-col gap-2 p-6" data-astro-cid-vw3llulk> <span class="mb-1 self-start pill-bina !border-mint !bg-mint !text-deep-ocean" data-astro-cid-vw3llulk>Independent</span> <p class="font-display text-title-sm" data-astro-cid-vw3llulk>Built and scored by Renaissance Learning</p> <p class="text-body-lg" data-astro-cid-vw3llulk>
+Renaissance sets the questions and the national comparisons, so every result is measured
+            independently.
+</p> </div> <div class="card-bina-solid flex flex-col gap-2 p-6" data-astro-cid-vw3llulk> <span class="mb-1 self-start pill-bina !border-mint !bg-mint !text-deep-ocean" data-astro-cid-vw3llulk>Adaptive</span> <p class="font-display text-title-sm" data-astro-cid-vw3llulk>It finds each child's real level</p> <p class="text-body-lg" data-astro-cid-vw3llulk>
+Questions get harder or easier as a child answers, so the result reflects what they can do.
+</p> </div> <div class="card-bina-solid flex flex-col gap-2 p-6" data-astro-cid-vw3llulk> <span class="mb-1 self-start pill-bina !border-mint !bg-mint !text-deep-ocean" data-astro-cid-vw3llulk>Nationally normed</span> <p class="font-display text-title-sm" data-astro-cid-vw3llulk>Compared with students across the US</p> <p class="text-body-lg" data-astro-cid-vw3llulk>
+"On track" means on track compared with students in the same grade nationwide.
+</p> </div> </div> </div> </section>  <section class="theme-base"> <div class="mx-auto max-w-5xl px-5 py-14"> <div class="theme-tangerine rounded-lg px-6 py-12 text-center sm:px-12 sm:py-16">  <h2 class="cta-title text-title-xl sm:text-title-3xl" data-astro-cid-vw3llulk>
+Curious what a year at <span class="normal-case" data-astro-cid-vw3llulk>bina</span> could do for your child?
+</h2> <p class="cta-copy" data-astro-cid-vw3llulk>
+See how bina teaches, how we follow every child's progress, and how to get started.
+</p> <div class="cta-actions" data-astro-cid-vw3llulk> <a href="https://form.thebinaschool.com/new" class="btn-bina" data-astro-cid-vw3llulk>Start your bina journey</a> </div>  </div> </div> </section> <section class="theme-base" data-astro-cid-vw3llulk> <div class="mx-auto max-w-5xl px-5 py-14" data-astro-cid-vw3llulk> <h2 class="mb-8 text-title-xl sm:text-title-3xl" data-astro-cid-vw3llulk>FAQ</h2> <div> <details class="group border-b border-line"> <summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-5 font-display text-title-sm font-medium [&::-webkit-details-marker]:hidden"> <span>What is STAR, and why does it matter?</span> <span class="flex-none text-title-md leading-none transition-transform duration-200 group-open:rotate-45" aria-hidden="true">
++
+</span> </summary> <p class="max-w-3xl pb-5 pr-10 text-body-lg"> STAR is an adaptive reading and math assessment by Renaissance Learning, used with millions of US students. Because an outside company builds and scores it, every number on this page is measured independently. </p> </details><details class="group border-b border-line"> <summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-5 font-display text-title-sm font-medium [&::-webkit-details-marker]:hidden"> <span>What is a &quot;scaled score&quot;?</span> <span class="flex-none text-title-md leading-none transition-transform duration-200 group-open:rotate-45" aria-hidden="true">
++
+</span> </summary> <p class="max-w-3xl pb-5 pr-10 text-body-lg"> A single number for what a student can do, on one continuous scale across all grades. It only goes up when ability goes up, which is why growth in scaled-score points is the clearest way to show a year of learning. </p> </details><details class="group border-b border-line"> <summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-5 font-display text-title-sm font-medium [&::-webkit-details-marker]:hidden"> <span>What is the &quot;national benchmark&quot;?</span> <span class="flex-none text-title-md leading-none transition-transform duration-200 group-open:rotate-45" aria-hidden="true">
++
+</span> </summary> <p class="max-w-3xl pb-5 pr-10 text-body-lg"> Renaissance counts a student as at or above benchmark when they score in the top 60% of US students for their grade (the 40th percentile or higher). It&#39;s the standard line schools use for &quot;on track&quot;. </p> </details><details class="group border-b border-line"> <summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-5 font-display text-title-sm font-medium [&::-webkit-details-marker]:hidden"> <span>How do you report these numbers?</span> <span class="flex-none text-title-md leading-none transition-transform duration-200 group-open:rotate-45" aria-hidden="true">
++
+</span> </summary> <p class="max-w-3xl pb-5 pr-10 text-body-lg"> Growth figures cover the 108 students assessed in both October 2025 and May 2026 at the same level. Spring results cover everyone assessed in May. We only report groups of 10 or more students, and every figure is a school-wide average, so no individual student&#39;s results appear on this page. </p> </details><details class="group border-b border-line"> <summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-5 font-display text-title-sm font-medium [&::-webkit-details-marker]:hidden"> <span>Where do these numbers come from?</span> <span class="flex-none text-title-md leading-none transition-transform duration-200 group-open:rotate-45" aria-hidden="true">
++
+</span> </summary> <p class="max-w-3xl pb-5 pr-10 text-body-lg"> Every figure comes from Renaissance STAR assessments taken during the 2025–26 school year (October 2025 to May 2026). Individual results vary, and past results don&#39;t guarantee future ones. You can learn more about STAR at <a href="https://www.renaissance.com/products/star-assessments/" rel="noopener" class="font-bold underline">renaissance.com</a>. </p> </details> </div> </div> </section>  <script>(function(){const levels = [{"level":"P1","ages":"5–6","enrolled":49,"readBenchAt":13,"readBenchN":15,"readBenchPct":87},{"level":"P2","ages":"6–7","enrolled":35,"readBenchAt":25,"readBenchN":30,"readBenchPct":83},{"level":"P3","ages":"7–8","enrolled":37,"readBenchAt":22,"readBenchN":35,"readBenchPct":63,"readGrowthMedian":16,"readGrowthN":17,"readGrewPct":76},{"level":"P4","ages":"8–9","enrolled":40,"readBenchAt":27,"readBenchN":38,"readBenchPct":71,"readGrowthMedian":56,"readGrowthN":30,"readGrewPct":87},{"level":"P5","ages":"9–10","enrolled":34,"readBenchAt":19,"readBenchN":34,"readBenchPct":56,"readGrowthMedian":29,"readGrowthN":23,"readGrewPct":74},{"level":"P6","ages":"10–11","enrolled":24,"readBenchAt":13,"readBenchN":24,"readBenchPct":54,"readGrowthMedian":30,"readGrowthN":18,"readGrewPct":78},{"level":"M1","ages":"11–12","enrolled":14,"readBenchAt":11,"readBenchN":14,"readBenchPct":79,"readGrowthMedian":37,"readGrowthN":10,"readGrewPct":90}];
+const SITE = "https://thebinaschool.com";
+
+    // ---- count-up stat tiles ----
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const counters = document.querySelectorAll('[data-count]');
+    const runCount = (el) => {
+      const target = Number(el.dataset.count);
+      if (reduceMotion) {
+        el.textContent = target;
+        return;
+      }
+      const start = performance.now();
+      const dur = 1100;
+      const tick = (now) => {
+        const t = Math.min(1, (now - start) / dur);
+        const eased = 1 - Math.pow(1 - t, 3);
+        el.textContent = Math.round(target * eased);
+        if (t < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    };
+
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (!e.isIntersecting) return;
+            io.unobserve(e.target);
+            if (e.target.classList.contains('curve-card')) {
+              e.target.classList.add('in');
+            } else {
+              e.target.querySelectorAll('[data-count]').forEach(runCount);
+            }
+          });
+        },
+        { threshold: 0.35 }
+      );
+      document.querySelectorAll('.stat-tile, .curve-card').forEach((el) => io.observe(el));
+    } else {
+      counters.forEach((el) => (el.textContent = el.dataset.count));
+      document.querySelectorAll('.curve-card').forEach((el) => el.classList.add('in'));
+    }
+
+    // ---- level picker ----
+    const byLevel = {};
+    levels.forEach((l) => (byLevel[l.level] = l));
+    const buttons = document.querySelectorAll('.level-btn');
+    const result = document.getElementById('level-result');
+
+    function bigStat(value, label, note) {
+      return `
+        <div class="rounded-lg border-2 border-black p-5 text-black">
+          <p class="font-display text-title-3xl font-bold">${value}</p>
+          <p class="mt-1 font-display font-bold">${label}</p>
+          <p class="mt-1 text-body-lg">${note}</p>
+        </div>`;
+    }
+
+    function render(level) {
+      const l = byLevel[level];
+      if (!l) return;
+      let cards =
+        bigStat(
+          `${l.readBenchPct}%`,
+          'at or above the national reading benchmark',
+          `${l.readBenchAt} of ${l.readBenchN} ${l.level} students assessed in May 2026`
+        );
+      if (l.readGrowthMedian != null) {
+        cards += bigStat(
+          `+${l.readGrowthMedian} pts`,
+          'typical reading growth in one year',
+          `median scaled-score change across the ${l.readGrowthN} ${l.level} students assessed autumn and spring`
+        );
+        cards += bigStat(
+          `${l.readGrewPct}%`,
+          'grew their reading score',
+          `autumn to spring, same group of ${l.readGrowthN} students`
+        );
+      }
+      const note =
+        l.readGrowthMedian == null
+          ? `<p class="mt-4 text-body-lg">We share growth figures for groups of 10 or more students, so every number stays reliable. This year, fewer than 10 ${l.level} students were assessed at both points, so this group shows the benchmark result only.</p>`
+          : '';
+      // One card fills the row; three share it (Zeyu, 2026-11-09: no empty space beside a lone card).
+      const cols = l.readGrowthMedian == null ? '' : ' sm:grid-cols-3';
+      // P1–P6 link to the primary school page, M levels to middle school (stakeholder, 2026-11-09).
+      const middle = l.level.startsWith('M');
+      const dayLink = middle
+        ? { text: 'See a day at bina in middle school →', url: 'https://thebinaschool.com/middle-school' }
+        : { text: 'See a day at bina in primary school →', url: 'https://thebinaschool.com/primary-school' };
+      result.innerHTML = `
+        <div class="grid gap-3${cols}">${cards}</div>
+        ${note}
+        <p class="mt-4 text-body-lg">
+          <a href="${dayLink.url}" class="font-bold underline">${dayLink.text}</a>
+        </p>`;
+      buttons.forEach((b) => b.setAttribute('aria-pressed', b.dataset.level === level ? 'true' : 'false'));
+      const url = new URL(location);
+      url.searchParams.set('level', level);
+      history.replaceState(null, '', url);
+    }
+
+    buttons.forEach((b) => b.addEventListener('click', () => render(b.dataset.level)));
+
+    const requested = new URLSearchParams(location.search).get('level');
+    render(byLevel[requested] ? requested : levels[0].level);
+  })();</script>  </main> <!-- Footer (Zeyu, 2026-11-06): the main site's grouped footer — tagline column, one column per
+         group (2 on phones, 3 from 640px, tagline + 5 from 1024px), the legal links in one row above
+         the peeking logo (no divider line), and the Follow-us rail. Black / mint / lagoon: mint
+         tagline, group titles and legal links (the old purple), lagoon group links (the old
+         turquoise). -->
+    <footer class="theme-black relative z-10 overflow-hidden pt-12 md:pt-16 mt-0"> <div class="px-5 sm:px-10 min-[1120px]:pr-24"> <div class="mb-10 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 sm:gap-x-8 md:mb-12 lg:grid-cols-[1.4fr_repeat(5,minmax(0,1fr))]"> <p class="col-span-2 font-display text-title-md font-medium text-mint sm:col-span-3 lg:col-span-1 xl:text-title-lg xl:font-medium">
+A global, mobile, whole schooling experience for 4–15 year olds that fits your family everywhere
+</p> <nav aria-label="School"> <h2 class="mb-4 font-display text-label uppercase text-mint"><span>School</span></h2> <ul class="flex flex-col gap-3"> <li> <a href="https://thebinaschool.com/education" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Education</a> </li><li> <a href="https://thebinaschool.com/primary-school" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Primary School</a> </li><li> <a href="https://thebinaschool.com/middle-school" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Middle School</a> </li><li> <a href="https://thebinaschool.com/teachers" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Teachers</a> </li> </ul> </nav><nav aria-label="Join bina"> <h2 class="mb-4 font-display text-label uppercase text-mint"><span>Join <span class="normal-case">bina</span></span></h2> <ul class="flex flex-col gap-3"> <li> <a href="https://thebinaschool.com/admissions" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Admissions</a> </li><li> <a href="https://thebinaschool.com/tuition" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Tuition</a> </li><li> <a href="https://thebinaschool.com/open-house" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Open House</a> </li><li> <a href="../esa/index.html" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Education Savings Account</a> </li> </ul> </nav><nav aria-label="Results &amp; reviews"> <h2 class="mb-4 font-display text-label uppercase text-mint"><span>Results &amp; reviews</span></h2> <ul class="flex flex-col gap-3"> <li> <a href="../student-results/index.html" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Student results</a> </li><li> <a href="../family-survey/index.html" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Family survey</a> </li><li> <a href="../reviews/index.html" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Reviews</a> </li> </ul> </nav><nav aria-label="Guides"> <h2 class="mb-4 font-display text-label uppercase text-mint"><span>Guides</span></h2> <ul class="flex flex-col gap-3"> <li> <a href="https://thebinaschool.com/what-type-of-school-is-best" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">What type of school is best?</a> </li><li> <a href="https://thebinaschool.com/homeschooling-guides" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Homeschooling guides — USA</a> </li><li> <a href="https://thebinaschool.com/homeschooling-guides-europe" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Homeschooling guides — Europe</a> </li><li> <a href="https://thebinaschool.com/blog" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Blog</a> </li> </ul> </nav><nav aria-label="About bina"> <h2 class="mb-4 font-display text-label uppercase text-mint"><span>About <span class="normal-case">bina</span></span></h2> <ul class="flex flex-col gap-3"> <li> <a href="https://thebinaschool.com/about" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">About us</a> </li><li> <a href="https://thebinaschool.com/careers" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Open Positions</a> </li><li> <a href="https://form.thebinaschool.com/new-partner" target="_blank" rel="noopener noreferrer" class="font-display text-body-lg font-medium text-lagoon underline decoration-transparent xl:text-body-xl xl:font-medium">Join the bina school partner program</a> </li> </ul> </nav> </div> <ul class="mb-8 flex flex-wrap gap-x-6 gap-y-2 md:mb-10"> <li> <a href="https://thebinaschool.com/imprint" class="font-display text-body-lg font-medium text-mint underline decoration-transparent xl:text-body-xl xl:font-medium">Imprint</a> </li><li> <a href="https://thebinaschool.com/privacy" class="font-display text-body-lg font-medium text-mint underline decoration-transparent xl:text-body-xl xl:font-medium">Privacy</a> </li><li> <a href="https://thebinaschool.com/legal" class="font-display text-body-lg font-medium text-mint underline decoration-transparent xl:text-body-xl xl:font-medium">Legal</a> </li><li> <a href="https://thebinaschool.com/partner-program-terms" class="font-display text-body-lg font-medium text-mint underline decoration-transparent xl:text-body-xl xl:font-medium">Partner T&amp;Cs</a> </li> </ul>  </div> <img src="../images/peeking-logo.svg" decoding="async" alt="bina" width="440" height="125" class="block h-auto w-full"> </footer>
+
+    <!-- Right-edge "Follow us" rail, tablet and up — same as the main site, on lagoon. -->
+    <aside aria-label="Follow us on social media" class="fixed bottom-[10%] right-0 z-[900] hidden flex-col items-center gap-[1.1rem] rounded-l-lg bg-lagoon px-[0.7rem] py-5 min-[1120px]:flex"> <a href="https://www.linkedin.com/company/thebinaschool" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="block transition-transform duration-200 ease-out hover:scale-110"> <img src="../images/social/linkedin.svg" alt="" aria-hidden="true" width="26" height="26" class="h-[1.6rem] w-[1.6rem] object-contain"> </a><a href="https://www.youtube.com/@thebinaschool3759" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="block transition-transform duration-200 ease-out hover:scale-110"> <img src="../images/social/youtube.svg" alt="" aria-hidden="true" width="26" height="26" class="h-[1.6rem] w-[1.6rem] object-contain"> </a><a href="https://www.tiktok.com/@bina.school" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="block transition-transform duration-200 ease-out hover:scale-110"> <img src="../images/social/tiktok.svg" alt="" aria-hidden="true" width="26" height="26" class="h-[1.6rem] w-[1.6rem] object-contain"> </a><a href="https://www.instagram.com/thebinaschool" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="block transition-transform duration-200 ease-out hover:scale-110"> <img src="../images/social/instagram.svg" alt="" aria-hidden="true" width="26" height="26" class="h-[1.6rem] w-[1.6rem] object-contain"> </a> <span class="mt-1 rotate-180 font-display text-body-md leading-none text-black [writing-mode:vertical-rl]">Follow us</span> </aside> </body></html>
